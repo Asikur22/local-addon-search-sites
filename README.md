@@ -16,15 +16,12 @@ This addon for Local by Flywheel adds a search field to the Local interface, all
 	- Mac: `~/Library/Application Support/Local/addons`
 	- Windows: `%AppData%\Local\addons`
 	- Linux: `~/.config/Local/addons`
-3. Install dependencies:
-```bash
-npm install
-```
+3. Active from the addon menu
 
-3. Build the addon:
-```bash
-npm run build
-```
+#### OR
+
+1. Download the latest release from the releases page
+2. Use "Install from disk" button in the Local by Flywheel interface.
 
 ## License
 
