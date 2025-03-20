@@ -1,0 +1,27 @@
+{
+	"name" : "site-search",
+	"productName" : "Site Search",
+	"version" : "1.0.0",
+	"author" : "Asiqur Rahman",
+	"keywords" : [
+		"local-addon",
+		"searcch"
+	],
+	"bgColor" : "#fff39b",
+	"icon" : "icon.png",
+	"slug" : "site-search",
+	"description" : "A Local Addon to search for a site in Local by Flywheel",
+	"renderer" : "lib/renderer.js",
+	"main": "lib/main.js",
+	"license" : "GPL-3.0",
+	"scripts" : {
+		"build" : "tsc --skipLibCheck",
+		"watch" : "watchexec 'npm run build'"
+	},
+	"devDependencies" : {
+		"typescript" : "^3.9.10"
+	},
+	"engines" : {
+		"local-by-flywheel" : "^6.5.2"
+	}
+}
