@@ -13,6 +13,10 @@
 	"description" : "A Local Addon to search for a site in Local by Flywheel",
 	"renderer" : "lib/renderer.js",
 	"main": "lib/main.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Asikur22/local-addon-search-sites"
+	},
 	"license" : "GPL-3.0",
 	"scripts" : {
 		"build" : "tsc --skipLibCheck",
@@ -21,6 +25,12 @@
 	"devDependencies" : {
 		"typescript" : "^3.9.10"
 	},
+	"dependencies": {
+		"@getflywheel/local-components": "^17.8.0"
+	},
+	"bundledDependencies": [
+		"@getflywheel/local-components"
+	],
 	"engines" : {
 		"local-by-flywheel" : "^6.5.2"
 	}
