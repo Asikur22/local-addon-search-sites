@@ -1,5 +1,5 @@
 {
-	"name" : "site-search",
+	"name" : "local-addon-site-search",
 	"productName" : "Site Search",
 	"version" : "1.0.0",
 	"author" : "Asiqur Rahman",
@@ -9,7 +9,7 @@
 	],
 	"bgColor" : "#fff39b",
 	"icon" : "icon.png",
-	"slug" : "site-search",
+	"slug" : "local-addon-site-search",
 	"description" : "A Local Addon to search for a site in Local by Flywheel",
 	"renderer" : "lib/renderer.js",
 	"main": "lib/main.js",

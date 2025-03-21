@@ -10,3 +10,12 @@
 	border: 1px solid #e7e7e7;
 	border-radius: 4px;
 }
+
+.Theme__Dark .sites-search {
+	border-color: #434344;
+}
+
+.Theme__Dark .sites-search input {
+    background-color: #262727;
+    border-color: #434344;
+}
